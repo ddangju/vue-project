@@ -19,6 +19,10 @@
     <h4>{{products[2]}}</h4>
     <p>천원</p>
   </div>
+    <div>
+    <h4>{{products[3]}}</h4>
+    <p>천원</p>
+  </div>
   <input class="abc" v-model="text" type="text" />
   {{text}}
   <button class="btn" @click="[btnClick(),change()]"> 버튼 </button>
